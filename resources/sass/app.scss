@@ -6,3 +6,15 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+// Bootstrap Icons
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+[data-bs-theme="light"] {
+    --bs-link-color: #{$blue-100};
+}
+
+[data-bs-theme="dark"] {
+    --bs-primary-rgb: #000;
+    --bs-nav-link-color: #FFF;
+}
