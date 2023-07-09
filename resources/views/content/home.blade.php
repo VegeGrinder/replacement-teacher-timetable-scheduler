@@ -1,7 +1,5 @@
 @extends('layout.default')
 
 @section('content')
-    <div class="col py-3 bg-secondary">
-        Home
-    </div>
+    ASD
 @endsection
