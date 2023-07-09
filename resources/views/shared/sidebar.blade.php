@@ -3,25 +3,18 @@
         <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <span class="fs-5 d-none d-sm-inline">Replacement Scheduler</span>
         </a>
-        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start">
             <li class="nav-item">
                 <a href="#" class="nav-link align-middle px-0">
-                    <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                    <i class="fs-4 bi-house"></i>
+                    <span class="ms-1 d-none d-sm-inline">Home</span>
                 </a>
             </li>
             <li>
-                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
-                <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                    <li class="w-100">
-                        <a href="#" class="nav-link px-0">
-                            <span class="d-none d-sm-inline">Item</span> 1 </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-0">
-                            <span class="d-none d-sm-inline">Item</span> 2 </a>
-                    </li>
-                </ul>
+                <a href="#" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                    <i class="fs-4 bi-speedometer2"></i>
+                    <span class="ms-1 d-none d-sm-inline">Dashboard</span>
+                </a>
             </li>
             <li>
                 <a href="#" class="nav-link px-0 align-middle">
@@ -44,7 +37,7 @@
         </ul>
         <hr>
         <a href="https://github.com/VegeGrinder" target="_blank" class="d-flex align-items-center text-white text-decoration-none pb-4" id="dropdownUser1">
-            <img src="https://github.com/vegegrinder.png" width="30" height="30" class="rounded-circle">
+            <img src="https://github.com/vegegrinder.png" title="Creator GitHub Profile" width="30" height="30" class="rounded-circle">
             <span class="d-none d-sm-inline mx-1">Goh Shang Shein</span>
         </a>
     </div>
