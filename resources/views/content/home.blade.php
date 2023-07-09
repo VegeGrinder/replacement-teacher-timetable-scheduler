@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="col py-3 bg-secondary">
-        TEST
+        Home
     </div>
 @endsection

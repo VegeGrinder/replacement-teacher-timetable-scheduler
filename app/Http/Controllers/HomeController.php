@@ -10,6 +10,6 @@ class HomeController extends Controller
 {
     public function index() : View
     {
-        return view('timetable');
+        return view('content.home');
     }
 }
