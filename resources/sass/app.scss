@@ -10,11 +10,4 @@
 // Bootstrap Icons
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
-@include color-mode(light) {
-    --bs-link-color: #{$blue-100};
-}
-
-@include color-mode(dark) {
-    --bs-primary-rgb: #000;
-    --bs-nav-link-color: #FFF;
-}
+@import 'custom';

@@ -13,7 +13,7 @@
         <div class="container-fluid">
             <div class="row flex-nowrap">
                 @include('shared.sidebar')
-                <div class="col p-3 bg-secondary">
+                <div class="col p-3">
                     @yield('content')
                 </div>
             </div>
